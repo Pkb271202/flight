@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-info">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Flight Booking</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="home.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="flights.html">Flights</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="rate.html">Rates</a>
+				</li>
+                <li class="nav-item active">
+					<a class="nav-link" href="payment.html">Payment</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="feedback.html">Feedback</a>
+        </li>
+				<li class="nav-item active">
+					<a class="nav-link" href="login.html">Login</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="register.html">Sign Up</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="container mt-5 justify-content-center">
+                <h2 class="text-center text-white">Payment</h2>
+                <form class="text-white">
+                    <div class="form-group">
+                        <label for="name">Name on Card</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name on card">
+                    </div>
+                    <div class="form-group">
+                        <label for="cardnumber">Card Number</label>
+                        <input type="text" class="form-control" id="cardnumber" placeholder="Enter card number">
+                    </div>
+                    <div class="form-group">
+                        <label for="expdate">Expiration Date</label>
+                        <input type="text" class="form-control" id="expdate" placeholder="MM/YY">
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" id="cvv" placeholder="Enter CVV">
+                    </div>
+                    <button type="submit" class="btn btn-danger">Pay Now</button>
+                </form>
+            </div>
+        </div>
+      </div>
+	
+</body>
+</html>
